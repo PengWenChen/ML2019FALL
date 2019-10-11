@@ -101,4 +101,4 @@ if __name__=='__main__':
     	model2 = pickle.load(f)
     	pred = model2.predict(y_to_predict)
     	Save(pred,output_path)
-    	print(pred)
+        #print(pred)
